@@ -159,4 +159,3 @@ curl -X POST http://localhost:8080/api/v1/verify \
 This code implements the principles of end-to-end encryption (E2EE) and zero-trust.
 The service layer (`service`) operates exclusively with public keys, hashes, and cryptographic proofs. The PostgreSQL database is designed without tables for storing user data in plaintext. Private vectors $\mathbf{s}$ and Gaussian noise exist only in the isolated memory of the client-side process or within secure enclaves during proof generation.
 
-Translated with DeepL.com (free version)
